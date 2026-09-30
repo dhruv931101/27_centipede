@@ -82,10 +82,26 @@ centipede/
 
 ---
 
-## Submission Checklist
+## Lab 4 Submission
 
-Submission is only the following three things:
+**Student Name:** Dhruv Swatantramath  
+**SRN:** PES1UG24CS1554
 
-- [] A 10-second video of gameplay **before** your changes, showing the bug/broken behavior
-- [] A 10-second video of gameplay **after** your changes, showing the bug fixed and the new features working
-- [] The Chat/LLM used page link, with the complete chat history
+### Completed Vibe Coding Changes
+
+- Fixed the mushroom durability bug so mushrooms require exactly four hits before disappearing.
+- Implemented mushroom color changes based on remaining HP.
+- Added a temporary visual hit/spark effect when a Centipede segment is destroyed.
+- Added progressive speed increases for later waves.
+- Preserved existing player movement, shooting, scoring, chain splitting, lives, reset, and game-over functionality.
+
+### Lab 4 Deliverables
+
+All Lab 4 submission files are available in the `Lab-4` folder:
+
+```text
+Lab-4/
+├── Before.mp4
+├── After.mp4
+├── game.py
+└── Chat_History_Lab4.pdf
